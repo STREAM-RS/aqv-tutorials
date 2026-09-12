@@ -11,3 +11,5 @@ test_bed.py
 *.log
 *.pyc
 *.nc
+.DS_Store
+.ipynb_checkpoints/
