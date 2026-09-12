@@ -21,26 +21,14 @@ Each lesson is designed as a standalone Jupyter Notebook, moving from spectral f
 * **Content:** Introduction to spectral data using the **GLORIA** dataset.
 * **Key Topics:** Spectral visualization, MDN vs. Classical Neural Networks, output formats, and quantifying **uncertainty**.
 
-### 2. MDN-AC: Application to Satellite Imagery
-* **Content:** Walking through the Atmospheric Correction (AC) pipeline.
-* **Key Topics:** API-based TOA signal retrieval, conversion to Rayleigh-corrected reflectance ($\rho_{rc}$), and performing the correction to $R_{rs}$.
+### 2. The AQUAVERSE-MDN Toolkit
+* **Content:** A quick snapshot of Aquaverse's MDN based toolkit.
+* **Key Topics:** End-to-end processing of spectral data, tools for prediction and plotting, comparision to operational algorithms.
 
-### 3. MDN-WQ: Product Generation
+### 3. MDN-WQ: Satellite Product Generation
 * **Content:** Applying MDN-WQ to the corrected imagery from Lesson 2.
 * **Key Topics:** Generating biogeochemical products and final spatial mapping.
 
-### 4. Exercise 1: End-to-End Application
-* **Content:** A hands-on challenge for participants to apply the pipeline to a different image.
-* **Note:** Includes a "Starter" notebook with code blocks missing and a "Solution" notebook for post-session review.
-
----
-
-## 🛠️ Extensions & Advanced Use
-<details>
-<summary><b>🧪 Optional: Application to 2D Spectral Data (Click to Expand)</b></summary>
-<br>
-Originally conceived to allow users to apply MDN-WQ to their own <i>in situ</i> measurements. This section provides a framework for algorithm validation and comparison against standard models.
-</details>
 
 ---
 
